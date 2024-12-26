@@ -26,6 +26,13 @@ dictionary = {
     "oloye": "king",  "agbara": "strength", "omolode": "beautiful",  "eniyan": "person", "oko": "husband",
     "iyawo": "wife", "ounje": "food","omi": "water", "orun": "heaven", "aye": "earth", "okan": "heart", "owo": "hand",
     "oko": "farm", "ojo": "day", "orun": "sleep" 
-}
+},
+
+  "Igbo": { "ndewo": "Hello", "daalu": "Thank you", "biko": "Please", "ezigbo ututu": "Good morning",
+    "ezigbo ehihie": "Good afternoon", "ezigbo mgbede": "Good evening", "Ka o di": "How are you?",
+    "o di mma": "I am fine", "Gini ka i naeme?": "What are you doing?","aga m": "I am going", "ebe a": "Here", "ebe ahu": "There",
+    "ee": "Yes", "mba": "No", "aha m bu": "My name is", "kedu aha gi?": "What is your name?", "nri": "Food",
+    "mmiri": "Water", "ulo": "House", "nwoke": "Man/Male"
+    }
 
 }
