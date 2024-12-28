@@ -46,4 +46,10 @@ dictionary = {
 window = Tk()
 window.title("Multi-Language Dictionary")
 
+languages = ["French", "Spanish", "Hausa", "Yoruba", "Igbo", "Italian"] 
+language = StringVar(window)
+language.set("Select Language") 
+lang_menu = OptionMenu(window, language, *languages)
+lang_menu.pack()
+
 window.mainloop()
