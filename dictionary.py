@@ -1,5 +1,6 @@
 #This program translates words in the specified languages to English
 
+from tkinter import *
 
 # dictionary with some words and translations
 dictionary = {
