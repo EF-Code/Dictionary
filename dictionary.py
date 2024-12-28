@@ -42,3 +42,8 @@ dictionary = {
     }
 
 }
+
+window = Tk()
+window.title("Multi-Language Dictionary")
+
+window.mainloop()
