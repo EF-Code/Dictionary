@@ -1,6 +1,6 @@
 # GUI Dictionary
 
-**This Python program made with Tkinter creates a simple GUI for translating words from a few languages (French, Spanish, Hausa, Yoruba, Igbo, Italian) to English.**
+**This Python program made with Tkinter creates a simple GUI for translating words from a few languages (French, Spanish, Hausa, Yoruba, Igbo) to English.**
 
 ## *Features:*
 
