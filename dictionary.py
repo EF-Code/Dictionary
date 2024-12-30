@@ -57,4 +57,16 @@ language.set("Select Language")
 lang_menu = OptionMenu(window, language, *languages)
 lang_menu.pack()
 
+word_label = Label(window, text="Enter Word:")
+word_label.pack()
+
+entry = Entry(window)
+entry.pack()
+
+translate_button = Button(window, text="Translate", command=translate)
+translate_button.pack()
+
+result_label = Label(window, text="")
+result_label.pack()
+
 window.mainloop()
