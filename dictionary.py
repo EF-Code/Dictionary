@@ -50,23 +50,25 @@ dictionary = {
 
 window = Tk()
 window.title("Multi-Language Dictionary")
+window.configure(bg="green")
 
 languages = ["French", "Spanish", "Hausa", "Yoruba", "Igbo"] 
 language = StringVar(window)
 language.set("Select Language") 
-lang_menu = OptionMenu(window, language, *languages)
-lang_menu.pack()
+language_menu = OptionMenu(window, language, *languages)
+language_menu.config(bg="lightblue", fg="black")
+language_menu.pack(pady=10)
 
-word_label = Label(window, text="Enter Word:")
-word_label.pack()
+words_label = Label(window, text="Enter Word:", bg="green", fg="black")
+words_label.pack(pady=5)
 
-entry = Entry(window)
-entry.pack()
+entry = Entry(window, bg="white", fg="black")
+entry.pack(pady=5)
 
 translate_button = Button(window, text="Translate", command=translate)
-translate_button.pack()
+translate_button.pack(pady=10)
 
-result_label = Label(window, text="")
-result_label.pack()
+result_label = Label(window, text="", bg="green", fg="black")
+result_label.pack(pady=5)
 
 window.mainloop()
