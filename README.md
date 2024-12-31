@@ -12,9 +12,9 @@
 
 ## To Run:
 
-**Clone the repo**:`git clone https://github.com/EF-Code/gui_dictionary.git` `cd gui_dictionary`
+**Clone the repo**:`git clone https://github.com/EF-Code/dictionary.git` `cd dictionary`
 
-**Run the script from your terminal**: `python gui_dictionary.py`
+**Run the script from your terminal**: `python dictionary.py`
 
 **Note:**
 
